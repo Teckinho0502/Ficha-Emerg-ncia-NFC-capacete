@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ficha de Emergência - Gabriel de Lima Martins</title>
+<style>
+  :root {
+    --red: #c62828;
+    --bg: #f4f4f5;
+    --card: #ffffff;
+    --text: #18181b;
+    --muted: #6b7280;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.4;
+  }
+  header {
+    background: var(--red);
+    color: #fff;
+    text-align: center;
+    padding: 18px 16px;
+  }
+  header h1 { margin: 0; font-size: 1.35rem; letter-spacing: .5px; }
+  header p { margin: 4px 0 0; font-size: .9rem; opacity: .95; }
+  main { max-width: 480px; margin: 0 auto; padding: 16px; }
+  .card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  }
+  .label {
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .value { font-size: 1.1rem; font-weight: 600; }
+  .row { margin-bottom: 12px; }
+  .row:last-child { margin-bottom: 0; }
+  .blood {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid var(--red);
+  }
+  .blood .type {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: var(--red);
+  }
+  .btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  .btn-emergency { background: var(--red); color: #fff; }
+  .btn-owner { background: #fff; color: var(--red); border: 2px solid var(--red); }
+  .btn small { display: block; font-weight: 500; font-size: .8rem; opacity: .9; }
+  footer { text-align: center; font-size: .75rem; color: var(--muted); padding: 8px 16px 24px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🚑 FICHA DE EMERGÊNCIA</h1>
+  <p>Em caso de acidente, ligue 192 (SAMU) e avise a Aline (contato de emergência)</p>
+</header>
+
+<main>
+
+  <a class="btn btn-emergency" href="tel:+5565993324496">
+    📞 Ligar para Aline
+    <small>Contato de emergência · (65) 99332-4496</small>
+  </a>
+
+  <div class="card blood">
+    <div>
+      <div class="label">Tipo sanguíneo</div>
+      <div class="value">Doador / receptor</div>
+    </div>
+    <div class="type">O+</div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div class="label">Nome</div>
+      <div class="value">Gabriel de Lima Martins</div>
+    </div>
+    <div class="row">
+      <div class="label">Data de nascimento</div>
+      <div class="value">05/02/2003</div>
+    </div>
+    <div class="row">
+      <div class="label">CPF</div>
+      <div class="value">067.572.991-27</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div class="label">Endereço</div>
+      <div class="value">
+        Rua Santo Antônio, 388<br>
+        Condomínio Chapada dos Pampas<br>
+        Cuiabá - MT
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>Ficha pessoal de emergência · Gabriel de Lima Martins</footer>
+
+</body>
+</html>
